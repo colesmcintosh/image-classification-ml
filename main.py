@@ -1,4 +1,3 @@
-from json import load
 import pandas as pd
 from sklearn.datasets import load_digits
 
@@ -9,10 +8,12 @@ df = pd.DataFrame(digits.data)
 
 df['target'] = digits.target
 
-import matplotlib.pyplot as plt
-plt.gray()
-for i in range(6):
-    plt.matshow(digits.images[i])
+# Uncomment the code below to see samples of the images that were used.
+
+#import matplotlib.pyplot as plt
+#plt.gray()
+#for i in range(6):
+#    plt.matshow(digits.images[i])
 
 from sklearn.model_selection import train_test_split
 
