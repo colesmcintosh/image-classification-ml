@@ -1,5 +1,5 @@
 # Detecting a number from an image (Machine Learning)
-> This is a simple image classification model that detects a number from an image using a random forest algorithm.
+> An image classification model that detects a number from an image using a random forest algorithm.
 
 > The image is converted to a vector and then the vector is classified as a number.
 
